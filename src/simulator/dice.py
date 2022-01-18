@@ -10,9 +10,7 @@ class DiceValues(Enum):
     Skull = auto()
     Sword = auto()
 
-@dataclass
+
+@dataclass(unsafe_hash=True)
 class Dice:
     value: DiceValues
-
-
-

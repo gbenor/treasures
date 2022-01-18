@@ -1,0 +1,1 @@
+NUM_OF_DICE = 8
